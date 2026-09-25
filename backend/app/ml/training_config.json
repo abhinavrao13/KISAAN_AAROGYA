@@ -1,0 +1,42 @@
+{
+  "model_architecture": "mobilenet_v3_small",
+  "num_classes": 38,
+  "input_size": [
+    224,
+    224
+  ],
+  "normalization_mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "normalization_std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "train_val_test_split": [
+    0.7,
+    0.15,
+    0.15
+  ],
+  "random_seed": 42,
+  "class_balanced": true,
+  "temperature_scaling": 1.0,
+  "crops_supported": [
+    "Apple",
+    "Blueberry",
+    "Cherry",
+    "Corn",
+    "Grape",
+    "Orange",
+    "Peach",
+    "Pepper",
+    "Potato",
+    "Raspberry",
+    "Soybean",
+    "Squash",
+    "Strawberry",
+    "Tomato"
+  ]
+}

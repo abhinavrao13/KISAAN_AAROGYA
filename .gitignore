@@ -1,0 +1,49 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+*.venv
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+crop_health.db
+
+# Static dynamic uploads
+backend/static/uploads/*
+!backend/static/uploads/.gitkeep
+backend/static/masks/*
+!backend/static/masks/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Duplicate nested subfolders
+SIH/
